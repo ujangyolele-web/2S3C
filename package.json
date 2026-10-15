@@ -1,0 +1,37 @@
+{
+  "name": "infineon-2s3g-fab-roster",
+  "version": "1.9.0",
+  "description": "Aplikasi Kalkulator FAB dan Roster Shift untuk tim 2S3G Infineon Batam.",
+  "main": "index.html",
+  "author": "Gil-Tree",
+  "license": "MIT",
+  "keywords": [
+    "infineon",
+    "batam",
+    "fab",
+    "roster",
+    "shift",
+    "pwa",
+    "offline",
+    "productivity"
+  ],
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx http-server -p 3000 -c-1 .",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/infineon-2s3g-fab-roster.git"
+  },
+  "homepage": "https://username.github.io/infineon-2s3g-fab-roster",
+  "dependencies": {
+    "tesseract.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

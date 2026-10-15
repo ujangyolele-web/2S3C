@@ -1,0 +1,58 @@
+{
+  "name": "Infineon 2S3G — FAB & Roster",
+  "short_name": "FAB 2S3G",
+  "description": "Kalkulator FAB (Fully Available Break) dan Roster Shift untuk tim 2S3G Infineon Technologies Batam.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0A1524",
+  "background_color": "#0A1524",
+  "icons": [
+  {
+    "src": "icon-192.png",
+    "sizes": "192x192",
+    "type": "image/png",
+    "purpose": "any"
+  },
+  {
+    "src": "icon-512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any"
+  },
+  {
+    "src": "icon-maskable-192.png",
+    "sizes": "192x192",
+    "type": "image/png",
+    "purpose": "maskable"
+  },
+  {
+    "src": "icon-maskable-512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "maskable"
+  }
+],
+  "id": "/",
+  "scope": "/",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Morning Shift",
+      "url": "./?shift=morning",
+      "description": "Buka form shift pagi"
+    },
+    {
+      "name": "Night Shift",
+      "url": "./?shift=night",
+      "description": "Buka form shift malam"
+    },
+    {
+      "name": "Roster",
+      "url": "./?view=roster",
+      "description": "Buka kalender roster"
+    }
+  ]
+}
